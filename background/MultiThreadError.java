@@ -1,4 +1,3 @@
-package background;
 
 /**
  * 描述：     第二章线程安全问题，演示死锁。

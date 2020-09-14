@@ -1,4 +1,4 @@
-package threadcoreknowledge.threadobjectclasscommonmethods;
+package threadobjectclasscommonmethods;
 
 /**
  * 描述：     修改线程名字

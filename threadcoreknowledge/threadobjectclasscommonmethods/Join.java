@@ -1,4 +1,4 @@
-package threadcoreknowledge.threadobjectclasscommonmethods;
+package threadobjectclasscommonmethods;
 
 /**
  * 描述：     演示join，注意语句输出顺序，会变化。

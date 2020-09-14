@@ -1,4 +1,3 @@
-package jmm;
 
 import java.util.concurrent.CountDownLatch;
 

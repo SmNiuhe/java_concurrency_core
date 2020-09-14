@@ -1,4 +1,4 @@
-package threadcoreknowledge.threadobjectclasscommonmethods;
+package threadobjectclasscommonmethods;
 
 /**
  * 描述：     先join再mainThread.getState()

@@ -1,4 +1,4 @@
-package threadcoreknowledge.createthreads.wrongways;
+package createthreads.wrongways;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

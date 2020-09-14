@@ -1,9 +1,9 @@
-package threadcoreknowledge.stopthreads;
+package stopthreads;
 
-import threadcoreknowledge.createthreads.ThreadStyle;
 
 /**
- * 描述：     最佳实践：catch了InterruptedExcetion之后的优先选择：在方法签名中抛出异常 那么在run()就会强制try/catch
+ * 描述：     最佳实践：catch了InterruptedExcetion之后的优先选择：
+ * 在方法签名中抛出异常 那么在run()就会强制try/catch
  */
 public class RightWayStopThreadInProd implements Runnable {
 

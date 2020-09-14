@@ -1,4 +1,3 @@
-package background;
 
 /**
  * 描述：     初始化未完毕，就this赋值

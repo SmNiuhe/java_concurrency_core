@@ -1,4 +1,3 @@
-package singleton;
 
 /**
  * 描述：     懒汉式（线程不安全）（不推荐）

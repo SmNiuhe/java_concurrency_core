@@ -1,4 +1,4 @@
-package threadcoreknowledge.threadobjectclasscommonmethods;
+package threadobjectclasscommonmethods;
 
 /**
  * 描述：     通过讲解join原理，分析出join的代替写法
@@ -21,9 +21,9 @@ public class JoinPrinciple {
         thread.start();
         System.out.println("开始等待子线程运行完毕");
         thread.join();
-//        synchronized (thread) {
-//            thread.wait();
-//        }
+        /*synchronized (thread) {
+            thread.wait();
+        }*/
         System.out.println("所有子线程执行完毕");
     }
 }

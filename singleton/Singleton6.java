@@ -1,4 +1,3 @@
-package singleton;
 
 /**
  * 描述：     双重检查（推荐面试使用）

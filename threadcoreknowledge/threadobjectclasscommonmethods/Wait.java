@@ -1,4 +1,4 @@
-package threadcoreknowledge.threadobjectclasscommonmethods;
+package threadobjectclasscommonmethods;
 
 /**
  * 描述：     展示wait和notify的基本用法 1. 研究代码执行顺序 2. 证明wait释放锁

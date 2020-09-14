@@ -1,4 +1,4 @@
-package threadcoreknowledge.stopthreads;
+package stopthreads;
 
 /**
  * 描述：     run无法抛出checked Exception，只能用try/catch

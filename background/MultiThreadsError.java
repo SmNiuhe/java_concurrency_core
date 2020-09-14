@@ -1,4 +1,3 @@
-package background;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
@@ -16,7 +15,7 @@ public class MultiThreadsError implements Runnable {
     static volatile CyclicBarrier cyclicBarrier1 = new CyclicBarrier(2);
     static volatile CyclicBarrier cyclicBarrier2 = new CyclicBarrier(2);
 
-    final boolean[] marked = new boolean[10000000];
+    final boolean[] marked = new boolean[10_000_000];
 
     public static void main(String[] args) throws InterruptedException {
 

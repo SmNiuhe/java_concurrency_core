@@ -1,4 +1,3 @@
-package deadlock;
 
 /**
  * 描述：     必定发生死锁的情况

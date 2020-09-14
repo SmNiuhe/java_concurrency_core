@@ -1,4 +1,3 @@
-package background;
 
 /**
  * 描述：     观察者模式

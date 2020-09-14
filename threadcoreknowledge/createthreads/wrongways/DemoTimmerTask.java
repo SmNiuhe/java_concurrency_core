@@ -1,4 +1,4 @@
-package threadcoreknowledge.createthreads.wrongways;
+package createthreads.wrongways;
 
 import java.util.Timer;
 import java.util.TimerTask;

@@ -1,4 +1,3 @@
-package singleton;
 
 /**
  * 描述：     枚举单例

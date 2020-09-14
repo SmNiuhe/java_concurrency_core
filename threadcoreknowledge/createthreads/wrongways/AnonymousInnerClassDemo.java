@@ -1,6 +1,6 @@
-package threadcoreknowledge.createthreads.wrongways;
+package createthreads.wrongways;
 
-import threadcoreknowledge.createthreads.ThreadStyle;
+
 
 /**
  * 描述：     匿名内部类的方式
@@ -20,5 +20,7 @@ public class AnonymousInnerClassDemo {
                 System.out.println(Thread.currentThread().getName());
             }
         }).start();
+
+
     }
 }

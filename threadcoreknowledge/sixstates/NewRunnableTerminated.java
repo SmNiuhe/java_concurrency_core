@@ -1,4 +1,4 @@
-package threadcoreknowledge.sixstates;
+package sixstates;
 
 /**
  * 描述：     展示线程的NEW、RUNNABLE、Terminated状态。即使是正在运行，也是Runnable状态，而不是Running。
@@ -12,7 +12,7 @@ public class NewRunnableTerminated implements Runnable {
         thread.start();
         System.out.println(thread.getState());
         try {
-            Thread.sleep(10);
+            Thread.sleep(1);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

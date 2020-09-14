@@ -1,4 +1,4 @@
-package threadcoreknowledge.stopthreads;
+package stopthreads;
 
 /**
  * 描述：     如果在执行过程中，每次循环都会调用sleep或wait等方法，那么不需要每次迭代都检查是否已中断

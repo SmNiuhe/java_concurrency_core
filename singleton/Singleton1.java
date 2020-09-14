@@ -1,4 +1,3 @@
-package singleton;
 
 /**
  * 描述：     饿汉式（静态常量）（可用）

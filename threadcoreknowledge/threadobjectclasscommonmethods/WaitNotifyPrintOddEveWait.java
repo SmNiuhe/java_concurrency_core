@@ -1,4 +1,4 @@
-package threadcoreknowledge.threadobjectclasscommonmethods;
+package threadobjectclasscommonmethods;
 
 
 /**
@@ -11,8 +11,10 @@ public class WaitNotifyPrintOddEveWait {
 
 
     public static void main(String[] args) {
-        new Thread(new TurningRunner(), "偶数").start();
-        new Thread(new TurningRunner(), "奇数").start();
+        Thread odd = new Thread(new TurningRunner(), "偶数");
+        odd.start();
+        Thread eve = new Thread(new TurningRunner(), "奇数");
+        eve.start();
     }
 
     //1. 拿到锁，我们就打印
@@ -26,10 +28,12 @@ public class WaitNotifyPrintOddEveWait {
                     //拿到锁就打印
                     System.out.println(Thread.currentThread().getName() + ":" + count++);
                     lock.notify();
+
                     if (count <= 100) {
                         try {
                             //如果任务还没结束，就让出当前的锁，并休眠
                             lock.wait();
+
                         } catch (InterruptedException e) {
                             e.printStackTrace();
                         }

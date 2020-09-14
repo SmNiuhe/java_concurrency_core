@@ -1,4 +1,4 @@
-package threadcoreknowledge.sixstates;
+package sixstates;
 
 /**
  * 描述：     展示Blocked, Waiting, TimedWaiting

@@ -1,4 +1,3 @@
-package background;
 
 import com.sun.javafx.geom.Matrix3f;
 import java.util.HashMap;

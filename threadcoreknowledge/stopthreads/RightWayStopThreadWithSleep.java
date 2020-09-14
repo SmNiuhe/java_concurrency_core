@@ -1,4 +1,4 @@
-package threadcoreknowledge.stopthreads;
+package stopthreads;
 
 /**
  * 描述：     带有sleep的中断线程的写法

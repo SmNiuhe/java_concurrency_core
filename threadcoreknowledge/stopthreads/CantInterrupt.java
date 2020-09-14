@@ -1,4 +1,4 @@
-package threadcoreknowledge.stopthreads;
+package stopthreads;
 
 /**
  * 描述：     如果while里面放try/catch，会导致中断失效

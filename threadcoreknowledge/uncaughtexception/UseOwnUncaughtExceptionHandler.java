@@ -1,4 +1,4 @@
-package threadcoreknowledge.uncaughtexception;
+package uncaughtexception;
 
 /**
  * 描述：     使用刚才自己写的UncaughtExceptionHandler
